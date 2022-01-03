@@ -1,0 +1,9 @@
+MODULO ORDINE nr. ordine
+TESTA;codice cliente; nome azienda; partita iva;Indirizzo;CAP:noteuscita  
+CORPOPRELIEVO;ID Pallet;barcode pallet;classe pallet;Etichetta pallettizzazione;Nome articolo;Q.ta articolo
+(la linea si ripeterà per n volte tanti quanti sono i pallet prelevati)
+CORPOPICKINGArticolo;ID Articolo;Codice articolo;Nome articolo;Descrizione articolo;Q.ta prelevata
+(la linea si ripeterà per n volte tanti quanti sono gli articoli prelevati)
+
+**se è stato effettuato soltanto un picking, la linea CORPOPRELIEVO non sarà presente**
+**se è stato effettuato soltanto un prelievo, la linea CORPOPICKINGArticolo non sarà presente**

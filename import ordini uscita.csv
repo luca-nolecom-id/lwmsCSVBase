@@ -1,0 +1,3 @@
+TESTA; data nel fromato aa/mm/gg;riferimento numero d'ordine;codice cliente; nome cliente; PartitaIVA;Indirizzo; Città;Nazione;CAP:noteuscita  
+CORPO;Etichetta pallettizzazione;Descrizione pallettizzazione;Note pallettizzazione;q.ta pallet;
+CORPOPICKINGArticolo;Codice articolo;q.ta articoli sul pallet;
